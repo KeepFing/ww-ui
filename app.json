@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Button/Button",
+    "pages/Gird/Gird",
+    "pages/Tabs/Tabs",
+    "pages/Carousel/Carousel",
+    "pages/List/List",
+    "pages/Badge/Badge",
+    "pages/Form/Form"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WW-UI",
+    "navigationBarTextStyle": "black"
+  }
+}
