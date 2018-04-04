@@ -1,0 +1,20 @@
+<view class="ww-page">
+  <view class="ww-page-head">
+    <view class="ww-title">Tabs</view>
+    <view class="ww-desc">标签页</view>
+  </view>
+  <view class='ww-page-body'>
+    <view class="ww-tabs">
+      <text wx:for="{{tabs}}" wx:key="{{index}}" data-idx="{{index}}" data-name="{{item}}" class="ww-tab {{currentTab==index ? 'active' : ''}}" bindtap="navbarTap">{{item}}</text>
+    </view>
+  </view>
+  <view hidden="{{currentTab!==0}}">
+    标签页1
+  </view>
+  <view hidden="{{currentTab!==1}}">
+    标签页2
+  </view>
+  <view hidden="{{currentTab!==2}}">
+    标签页3
+  </view>
+</view>

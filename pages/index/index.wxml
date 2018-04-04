@@ -1,0 +1,22 @@
+
+<view class="ww-page">
+    <view class="ww-page-head">
+        <view class="ww-title">WW-UI</view>
+        <view class="ww-desc">适用微信小程序的UI</view>
+    </view>
+    <view class="ww-page-body">
+        <view class="ww-grids">
+            <block wx:for="{{grid}}" wx:key="index" wx:for-item="item">
+                <navigator url="{{item.url}}" class="ww-grid-3" hover-class="ww-grid_active">
+                    <view class="ww-grid-label">{{item.name}}</view>
+                </navigator>
+            </block>
+        </view>
+        <view class="ww-footer ww-footer_fixed-bottom">
+            <view class="ww-footer-links">
+                <navigator url="" class="ww-footer-link">footer链接</navigator>
+            </view>
+            <view class="ww-footer-text">Copyright © 2018 WWUI</view>
+        </view>
+    </view>
+</view>

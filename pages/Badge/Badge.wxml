@@ -1,0 +1,65 @@
+<view class="ww-page">
+  <view class='ww-page-head'>
+    <view class='ww-title'>Badge</view>
+    <view class='ww-desc'>徽章</view>
+  </view>
+  <view class='ww-page-body'>
+    <view class="ww-cells-title">未读提示标记红点</view>
+    <view class="ww-cells ww-cells-after-title">
+      <view class="ww-cell">
+        <view class="ww-cell-body">提示
+          <view class="ww-badge ww-badge-dot" style="margin-left: 5px;margin-right: 5px;"></view>
+        </view>
+      </view>
+    </view>
+    <view class="ww-cells-title">未读提示标记红点</view>
+    <view class="ww-cells ww-cells-after-title">
+      <view class="ww-cell">
+        <view class="ww-cell-body">提示</view>
+        <view class="ww-cell-foot">详细信息
+          <view class="ww-badge ww-badge-dot" style="margin-left: 5px;margin-right: 5px;"></view>
+        </view>
+      </view>
+    </view>
+    <view class="ww-cells-title">带图标的标记红点</view>
+    <view class="ww-cells ww-cells-after-title">
+      <view class="ww-cell">
+        <view class='ww-cell-head'>
+          <image src='../../images/swiper1.jpeg' style='margin-right: 5px;vertical-align: middle;width:30px; height: 30px;'></image>
+        </view>
+        <view class="ww-cell-body">提示</view>
+        <view class="ww-cell-foot">详细信息
+          <view class="ww-badge ww-badge-dot" style="margin-left: 5px;margin-right: 5px;"></view>
+        </view>
+      </view>
+    </view>
+    <view class="ww-cells-title">带图标的标记显示具体数量</view>
+    <view class="ww-cells ww-cells-after-title">
+      <view class="ww-cell">
+        <view class='ww-cell-head'>
+          <image src='../../images/swiper1.jpeg' style='margin-right: 5px;vertical-align: middle;width:30px; height: 30px;'></image>
+        </view>
+        <view class="ww-cell-body">提示</view>
+        <view class="ww-cell-foot">详细信息
+          <view class="ww-badge" style="margin-left: 5px;margin-right: 5px;">5</view>
+        </view>
+      </view>
+    </view>
+    <view class="ww-cells-title">显示具体数量的未读提示标记红点</view>
+    <view class="ww-cells ww-cells-after-title">
+      <view class="ww-cell">
+        <view class="ww-cell-body">提示
+          <view class="ww-badge" style="margin-left: 5px;margin-right: 5px;">12</view>
+        </view>
+      </view>
+    </view>
+    <view class="ww-cells-title">显示文字的未读提示标记红点</view>
+    <view class="ww-cells ww-cells-after-title">
+      <view class="ww-cell">
+        <view class="ww-cell-body">提示
+          <view class="ww-badge" style="margin-left: 5px;margin-right: 5px;">new</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<view class="ww-page">
+  <view class="ww-page-head">
+    <view class="ww-title">Carousel</view>
+    <view class="ww-desc">走马灯-轮播效果</view>
+  </view>
+  <view class="ww-page-body">
+    <swiper class='ww-swiper' indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item.picUrl}}" class="ww-slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

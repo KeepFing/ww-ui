@@ -1,0 +1,36 @@
+<view class="ww-page">
+  <view class='ww-page-head'>
+    <view class='ww-title'>Button</view>
+    <view class='ww-desc'>按钮</view>
+  </view>
+  <view class='ww-page-body'>
+    <view>
+      <button class='ww-button-lg'>按钮(大按钮)</button>
+    </view>
+    <view class='ww-space'></view>
+    <view>
+      <button class='ww-button-mid'>按钮(中)</button>
+    </view>
+    <view class='ww-space'></view>
+    <view>
+      <button class='ww-button-sm'>按钮(小)</button>
+    </view>
+    <view class='ww-space'></view>
+    <view>
+      <button class='ww-button-lg ww-button-info'>信息</button>
+    </view>
+    <view class='ww-space'></view>
+    <view>
+      <button class='ww-button-lg ww-button-success'>成功</button>
+    </view>
+    <view class='ww-space'></view>
+    <view>
+      <button class='ww-button-lg ww-button-warning'>警告</button>
+    </view>
+    <view class='ww-space'></view>
+    <view>
+      <button class='ww-button-lg ww-button-error'>错误</button>
+    </view>
+    <view class='ww-space'></view>
+  </view>
+</view>

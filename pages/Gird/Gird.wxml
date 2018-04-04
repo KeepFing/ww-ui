@@ -1,0 +1,83 @@
+<!--pages/Gird/Gird.wxml-->
+<view class="ww-page">
+  <view class="ww-page-head">
+    <view class="ww-title">Gird</view>
+    <view class="ww-desc">栅格布局</view>
+  </view>
+  <view class='ww-explain-text'>经典九宫格</view>
+  <view class="ww-page-body">
+    <view class="ww-grids">
+      <block wx:for="{{9}}" wx:key="index" wx:for-item="item">
+        <view url="{{item.url}}" class="ww-grid-3" hover-class="ww-grid_active">
+          <view class="ww-grid__label">{{index}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class='ww-explain-text'>其他</view>
+  <view class="ww-page-body">
+    <view class="ww-grids">
+      <view class="ww-grid-1" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-1</view>
+      </view>
+    </view>
+  </view>
+  <view class="ww-page-body">
+    <view class="ww-grids">
+      <view class="ww-grid-2" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-2</view>
+      </view>
+      <view class="ww-grid-2" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-2</view>
+      </view>
+    </view>
+  </view>
+  <view class="ww-page-body">
+    <view class="ww-grids">
+      <view class="ww-grid-3" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-3</view>
+      </view>
+      <view class="ww-grid-3" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-3</view>
+      </view>
+      <view class="ww-grid-3" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-3</view>
+      </view>
+    </view>
+  </view>
+  <view class="ww-page-body">
+    <view class="ww-grids">
+      <view class="ww-grid-4" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-4</view>
+      </view>
+      <view class="ww-grid-4" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-4</view>
+      </view>
+      <view class="ww-grid-4" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-4</view>
+      </view>
+      <view class="ww-grid-4" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-4</view>
+      </view>
+    </view>
+  </view>
+  <view class="ww-page-body">
+    <view class="ww-grids">
+      <view class="ww-grid-5" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-5</view>
+      </view>
+      <view class="ww-grid-5" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-5</view>
+      </view>
+      <view class="ww-grid-5" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-5</view>
+      </view>
+      <view class="ww-grid-5" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-5</view>
+      </view>
+      <view class="ww-grid-5" hover-class="ww-grid_active">
+        <view class="ww-grid__label">ww-gird-5</view>
+      </view>
+    </view>
+  </view>
+</view>

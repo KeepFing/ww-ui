@@ -1,0 +1,46 @@
+/* pages/Tabs/Tabs.wxss */
+.ww-page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.ww-page-head {
+    padding: 40px;
+}
+.ww-page-body {
+    padding-bottom: 40px;
+}
+.ww-title{
+  font-size: 1.2em;
+  text-align: center;
+  color: grey;
+}
+.ww-desc{
+  font-size: 1em;
+  text-align: center;
+  color: gainsboro;
+}
+.ww-tabs{  
+  flex: none;  
+  display: flex;    
+}  
+.ww-tabs .ww-tab{  
+  position: relative;  
+  flex: auto;  
+  text-align: center;  
+  line-height: 80rpx;
+  font-size: 1em;  
+}  
+.ww-tabs .ww-tab.active{  
+  color: #82d449;  
+}  
+.ww-tabs .ww-tab.active:after{  
+  content: "";  
+  display: block;  
+  position: absolute;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  height: 4rpx;  
+  background: #82d449;  
+} 

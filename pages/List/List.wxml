@@ -1,0 +1,42 @@
+<view class="ww-page">
+    <view class="ww-page-head">
+        <view class="ww-title">List</view>
+        <view class="ww-desc">列表</view>
+    </view>
+    <view class="ww-page-bd">
+        <view class="ww-cells-title">普通列表</view>
+        <view class="ww-cells ww-cells-after-title">
+            <view class="ww-cell">
+                <view class="ww-cell-body">列表一</view>
+            </view>
+        </view>
+        <view class="ww-cells-title">左右布局的列表</view>
+        <view class="ww-cells ww-cells-after-title">
+            <view class="ww-cell">
+                <view class="ww-cell-body">列表二(left)</view>
+                <view class="ww-cell-foot">列表二(right)</view>
+            </view>
+        </view>
+        <view class="ww-cells-title">三栏布局的列表</view>
+        <view class="ww-cells ww-cells-after-title">
+            <view class="ww-cell">
+                <view class='ww-cell-head'>列表三(left)</view>
+                <view class="ww-cell-body">列表三(mid)</view>
+                <view class="ww-cell-foot">列表三(right)</view>
+            </view>
+        </view>
+        <view class="ww-cells-title">带图标的列表</view>
+        <view class="ww-cells ww-cells-after-title">
+            <view class="ww-cell">
+                <view class='ww-cell-head'>
+                  <image src='../../images/swiper1.jpeg' style='margin-right: 5px;vertical-align: middle;width:30px; height: 30px;'></image>
+                </view>
+                <view class="ww-cell-body">列表三(mid)</view>
+                <view class="ww-cell-foot">列表三(right)</view>
+            </view>
+        </view>
+    </view>
+
+
+
+</view>

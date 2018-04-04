@@ -1,0 +1,30 @@
+/* pages/Carousel/Carousel.wxss */
+.ww-page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.ww-page-head {
+    padding: 40px;
+}
+.ww-title{
+  font-size: 1.2em;
+  text-align: center;
+  color: grey;
+}
+.ww-desc{
+  font-size: 1em;
+  text-align: center;
+  color: gainsboro;
+}
+.ww-page-body {
+    padding-bottom: 40px;
+}
+.ww-swiper{
+  display:block;
+  height:200px;
+}
+.ww-slide-image{
+  width: 750rpx;
+  height: 200px;
+}

@@ -1,0 +1,108 @@
+.ww-page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.ww-page-head {
+    padding: 40px;
+}
+.ww-page-body {
+    padding-bottom: 40px;
+}
+.ww-title{
+  font-size: 1.2em;
+  text-align: center;
+  color: grey;
+}
+.ww-desc{
+  font-size: 1em;
+  text-align: center;
+  color: gainsboro;
+}
+.ww-cells-title {
+  margin-top: 0.77em;
+  margin-bottom: 0.3em;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #999;
+  font-size: 14px;
+}
+.ww-cells-after-title{
+  margin-top: 0;
+}
+.ww-cells {
+  position: relative;
+  margin-top: 1.17647059em;
+  background-color: #fff;
+  line-height: 1.41176471;
+  font-size: 17px;
+}
+
+.ww-cells:before {
+  top: 0;
+  border-top: 1rpx solid #d9d9d9;
+}
+
+.ww-cells:after, .ww-cells:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  color: #d9d9d9;
+}
+
+.ww-cells:after {
+  bottom: 0;
+  border-bottom: 1rpx solid #d9d9d9;
+}
+.ww-cell {
+  padding: 10px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.ww-cell:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1rpx solid #d9d9d9;
+  color: #d9d9d9;
+  left: 15px;
+}
+.ww-cell-body {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.ww-cell-foot {
+  text-align: right;
+  color: #999;
+}
+
+.ww-badge {
+  display: inline-block;
+  padding: 0.15em 0.4em;
+  min-width: 8px;
+  border-radius: 18px;
+  background-color: #e64340;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.ww-badge-dot {
+  padding: 0.4em;
+  min-width: 0;
+}
