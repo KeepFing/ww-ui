@@ -17,7 +17,7 @@
 
 - Carousel走马灯 pages/Carousel/Carousel
 
-![carousel](https://github.com/KeepFing/Github_test/blob/master/image/carouse.png)
+![carousel](https://github.com/KeepFing/Github_test/blob/master/image/carousel.png)
 
 - List列表 pages/List/List
 
