@@ -30,3 +30,15 @@
 - Form表单 pages/Form/Form
 
 ![form](https://github.com/KeepFing/Github_test/blob/master/image/form.png)
+
+### 使用
+clone地址https://github.com/KeepFing/ww-ui.git到本机，打开微信开发者工具，倒入整个项目即可预览
+
+![预览](https://github.com/KeepFing/Github_test/blob/master/image/index.png)
+
+目录结构如下
+
+![cate](https://github.com/KeepFing/Github_test/blob/master/image/catelog.png)
+
+css可直接引用app.wxss，也可单独引用pages里面具体的.wxss文件
+ 
