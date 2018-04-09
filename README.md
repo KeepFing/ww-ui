@@ -31,7 +31,9 @@
 
 - Form表单 pages/Form/Form
 
-![form](https://github.com/KeepFing/Github_test/blob/master/image/form.png)
+![form](https://github.com/KeepFing/Github_test/blob/master/image/form1.png)
+
+![form](https://github.com/KeepFing/Github_test/blob/master/image/form2.png)
 
 ### 使用
 clone地址https://github.com/KeepFing/ww-ui.git到本机，打开微信开发者工具，倒入整个项目即可预览
